@@ -1,0 +1,185 @@
+.mainItemCOntainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:7px;
+    justify-content: space-around;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainItemCOntainerCart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    /* justify-content: space-around; */
+}
+.Homelink{
+    background-color:green;
+    padding: 1.5%;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.link{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.resultdiv{
+    width: 24%;
+    box-shadow: .5px .5px 3px -1px;
+    padding: 1%;
+    margin: 15px; 
+}
+.itemContainer{
+    width: 24%;
+    box-shadow: .5px .5px 3px -1px;
+    padding: 1%;
+}
+.adbtn{
+    background-color: #21BA45;
+    padding: 1.5%;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial;
+}
+.adbtn:hover{
+    background-color:gray;
+}
+.Searchdiv{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0.5%;
+    background-color: green;
+    margin-bottom:15px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.Searchdiv1{
+    display: flex;
+    justify-content:space-evenly;
+    width: 70%; 
+}
+.Searchdiv2{
+    display: flex;
+    justify-content:space-evenly;
+    width: 25%; 
+}
+.E-com{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.E-com  i{
+    margin-right: 3px;
+    color: white;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.cartSpan{
+    color: white;
+    position: relative;
+    right: 17px;
+    bottom: 13px;
+    background-color: red;
+    border-radius: 45%;
+    font-size: 15px;
+    padding: 1.5px;
+
+}
+.Searchdiv1  input{
+    padding: 1%;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.itemDetailCon{
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    box-shadow: .5px .5px 3px -1px;
+}
+.itemDetailcard{
+    width: 100%;
+    padding: 2%;
+}
+.mainItemDetailsDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.itdetailSecondDiv{
+    width: 40%;
+}
+@media screen and (max-width:800px) {
+    .itemContainer{
+        width: 48%;
+        font-size: 12px;
+    }
+    .itemContainer  img{
+       height: 200px;
+    }
+    .mainItemCOntainer{
+        /* gap:10px; */
+        justify-content: space-around;
+    }
+    .mainItemDetailsDiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .itemDetailCon{
+        width: 97%;
+    }
+    .itdetailSecondDiv{
+        width: 97%;
+        font-size: 13px;
+        padding: 2%;
+    }
+    .E-com{
+        font-size: 12px;
+        color: white;
+    }
+    .E-com  i{
+        margin-right: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .Searchdiv1{
+        width: 60%;
+        display: flex; 
+        flex-direction: column;
+        /* background-color: #21BA45; */
+        justify-content:space-between;
+    }
+    .Searchdiv2{
+        width: 40%; 
+    }
+    .Searchdiv{
+        padding: 2%;
+        justify-content:space-between;
+    }
+    .Searchdiv1  input{
+        width: 130%;
+        padding: 5% 10% 2% 2%;
+    }
+    .E-com  i{
+        font-size: 18px;
+    }
+    .resultdiv{
+        width: 94%;
+        padding: 2%; 
+        /* margin: auto;  */
+        margin:15px 15px 15px 10px;
+    }
+}
