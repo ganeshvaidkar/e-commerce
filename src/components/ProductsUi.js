@@ -40,7 +40,7 @@ function ProductsUi(){
                 </div>
             </div>
             <div className="Searchdiv2">
-                <div className="E-com">Login P</div>
+                <div className="E-com">Login </div>
                 <div className="E-com"> <i  className="fa-solid fa-cart-shopping" onClick={()=>managecart()}>{CartUserdata && CartUserdata.length>0 && <span className="cartSpan">{totalcart}</span>}</i>Cart</div>
             </div>
         </div>
